@@ -1,4 +1,7 @@
 # Multi-label-Emotion-Detection
+<p align="center">
+  <img src="assets/bridge-logo.png" alt="BRIGHTER Logo" width="300"/>
+</p>
 
 
 This repository contains the code and resources for the **Track A** of the task 11, Bridging the Gap in Text-based  Emotion Detection in the competition of SemEval 2025. The goal of this task is to predict the emotions perceived in a given text snippet. Specifically, the objective is to classify the presence of the following emotions:
