@@ -1,1 +1,62 @@
 # Multi-label-Emotion-Detection
+
+This repository contains the code and resources for the **Track A** of the emotion detection competition. The goal of this task is to predict the emotions perceived in a given text snippet. Specifically, the objective is to classify the presence of the following emotions:
+
+- Joy
+- Sadness
+- Fear
+- Anger
+- Surprise
+- Disgust (for certain languages)
+
+For each text, you need to predict a binary label for each emotion. A label of `1` indicates that the emotion is present, while `0` indicates it is absent.
+
+## Table of Contents
+
+- [Data](#data)
+- [Model](#model)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Requirements](#requirements)
+- [License](#license)
+
+## Data
+
+The dataset for this task is provided in a CSV format. The training data consists of text snippets labeled with one or more of the emotions listed above. The format of the data is as follows:
+
+- `id`: Unique identifier for each sample
+- `text`: Text snippet (e.g., a sentence or a short paragraph)
+- `joy`, `sadness`, `fear`, `anger`, `surprise`, `disgust`: Binary labels indicating the presence of each emotion
+
+Example:
+
+| id      | text                          | joy | sadness | fear | anger | surprise | disgust |
+|---------|-------------------------------|-----|---------|------|-------|----------|---------|
+| sample_01 | "I am so happy today!"         | 1   | 0       | 0    | 0     | 0        | 0       |
+| sample_02 | "This is such a sad day."      | 0   | 1       | 0    | 0     | 0        | 0       |
+| sample_03 | "I'm terrified!"               | 0   | 0       | 1    | 0     | 0        | 0       |
+
+## Model
+
+The model is built using [Hugging Face Transformers](https://huggingface.co/transformers/), specifically fine-tuned on pre-trained models like **DistilBERT** or **DeBERTa**. The model architecture is configured to handle multi-label classification, predicting each emotion individually.
+
+### Steps to fine-tune the model:
+
+1. **Data Preprocessing**: The text data is tokenized using the Hugging Face tokenizer, and labels are binarized.
+2. **Model Training**: A model for multi-label classification is trained using binary cross-entropy loss.
+3. **Evaluation**: The model's performance is evaluated using metrics like F1 score (micro and macro).
+
+## Training
+
+To train the model, follow these steps:
+
+1. Install the dependencies using the provided `requirements.txt`.
+2. Prepare the dataset by running the preprocessing script or use the notebook for guidance.
+3. Run the training script to fine-tune the model on the training data.
+   
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Preprocess the data (tokenize and prepare labels)
+python data_preprocessing.py
