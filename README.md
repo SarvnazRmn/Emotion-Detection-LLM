@@ -20,6 +20,10 @@ For each text, you need to predict a binary label for each emotion. A label of `
 - [Requirements](#requirements)
 - [License](#license)
 
+## 📚 Dataset
+
+You can find the official dataset and task details on the [BRIGHTER dataset page](https://brighter-dataset.github.io/).
+
 ## Data
 
 The dataset for this task is provided in a CSV format. The training data consists of text snippets labeled with one or more of the emotions listed above. The format of the data is as follows:
@@ -54,7 +58,11 @@ To train the model, follow these steps:
 2. Prepare the dataset by running the preprocessing script or use the notebook for guidance.
 3. Run the training script to fine-tune the model on the training data.
    
+## 🧪 Evaluation
 
+The performance of the submitted systems will be evaluated based on the following metric:
+
+- **F1-Macro**: Computed over the predicted and gold labels for multi-label emotion classification.
 # Install dependencies
 pip install -r requirements.txt
 
