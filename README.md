@@ -58,7 +58,7 @@ To train the model, follow these steps:
 2. Prepare the dataset by running the preprocessing script or use the notebook for guidance.
 3. Run the training script to fine-tune the model on the training data.
    
-## 🧪 Evaluation
+##  Evaluation
 
 The performance of the submitted systems will be evaluated based on the following metric:
 
