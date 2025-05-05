@@ -17,6 +17,7 @@ For each text, you need to predict a binary label for each emotion. A label of `
 
 ## Table of Contents
 
+- [Data Set](#dataset)
 - [Data](#data)
 - [Model](#model)
 - [Training](#training)
