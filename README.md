@@ -48,7 +48,7 @@ The model is built using [Hugging Face Transformers](https://huggingface.co/tran
 
 1. **Data Preprocessing**: The text data is tokenized using the Hugging Face tokenizer, and labels are binarized.
 2. **Model Training**: A model for multi-label classification is trained using binary cross-entropy loss.
-3. **Evaluation**: The model's performance is evaluated using metrics like F1 score (micro and macro).
+3. **Evaluation**: The model's performance is evaluated using metrics like F1 score.
 
 ## Training
 
