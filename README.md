@@ -22,7 +22,7 @@ For each text, you need to predict a binary label for each emotion. A label of `
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Requirements](#requirements)
-- [License](#license)
+
 
 ## 📚 Dataset
 
