@@ -46,6 +46,10 @@ Example:
 | sample_02 | "This is such a sad day."      | 0   | 1       | 0    | 0     | 0        | 0       |
 | sample_03 | "I'm terrified!"               | 0   | 0       | 1    | 0     | 0        | 0       |
 
+<p align="center">
+  <img src="assets/traindata.png" alt="traindata" style="width: 100%; max-width: 800px;"/>
+</p>
+
 ## Model
 
 The model is built using [Hugging Face Transformers](https://huggingface.co/transformers/), specifically fine-tuned on pre-trained models like **DistilBERT** or **DeBERTa**. The model architecture is configured to handle multi-label classification, predicting each emotion individually.
