@@ -48,7 +48,7 @@ Example:
 
 Training Data:
 <p align="center">
-  <img src="assets/traindata.png" alt="traindata" style="width: 100%; max-width: 500px;"/>
+  <img src="assets/traindata.png" alt="traindata" style="width: 50%; max-width: 500px;"/>
 </p>
 
 ## Model
