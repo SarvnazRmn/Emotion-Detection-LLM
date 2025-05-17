@@ -46,8 +46,9 @@ Example:
 | sample_02 | "This is such a sad day."      | 0   | 1       | 0    | 0     | 0        | 0       |
 | sample_03 | "I'm terrified!"               | 0   | 0       | 1    | 0     | 0        | 0       |
 
+Training Data:
 <p align="center">
-  <img src="assets/traindata.png" alt="traindata" style="width: 100%; max-width: 800px;"/>
+  <img src="assets/traindata.png" alt="traindata" style="width: 100%; max-width: 500px;"/>
 </p>
 
 ## Model
