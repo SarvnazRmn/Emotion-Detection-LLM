@@ -25,7 +25,7 @@ For each text, you need to predict a binary label for each emotion. A label of `
 - [Requirements](#requirements)
 
 
-## 📚 Dataset
+##  Dataset
 
 The BRIGHTER dataset supports emotion detection in multiple languages. For this project, we focus on the **English** language.
 You can find the official dataset and task details on the [BRIGHTER dataset page](https://brighter-dataset.github.io/).
