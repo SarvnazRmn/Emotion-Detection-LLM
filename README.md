@@ -74,8 +74,4 @@ To train the model, follow these steps:
 The performance of the submitted systems will be evaluated based on the following metric:
 
 - **F1-Macro**: Computed over the predicted and gold labels for multi-label emotion classification.
-# Install dependencies
-pip install -r requirements.txt
 
-# Preprocess the data (tokenize and prepare labels)
-python data_preprocessing.py
