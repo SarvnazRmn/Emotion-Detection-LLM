@@ -1,6 +1,6 @@
-# 🔥 Best Performing Model: LLaMA with Layer-Specific Learning Rates
+# Best Performing Model: LLaMA with Layer-Specific Learning Rates
 
-## 🧠 Model Overview
+## Model Overview
 
 This notebook implements a fine-tuned LLaMA-based architecture for multilabel emotion classification using the BRIGHTER dataset (English track A) from SemEval2025 Task 11.
 
@@ -17,7 +17,7 @@ We addressed this by introducing **differentiated learning rates**:
 - Unfrozen LLaMA layers (12–15): `1e-6`  
 This tenfold reduction in learning rate for the base model layers stabilized training.
 
-## ⚙️ Architecture Summary
+## Architecture Summary
 
 - **Backbone**: `meta-llama/Llama-3.2-1B`
 - **Fine-tuning Strategy**:
@@ -57,4 +57,4 @@ Our best model's macro F1 score of **`0.7114`** surpasses the **top-ranked syste
 
 ---
 
-📌 *This directory represents the best performing configuration in our submission to SemEval2025 Task 11.*
+ *This directory represents the best performing configuration in our submission to SemEval2025 Task 11.*
