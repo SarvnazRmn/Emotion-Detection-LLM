@@ -45,8 +45,6 @@ This tenfold reduction in learning rate for the base model layers stabilized tra
 
 ## 🏆 Leaderboard Comparison
 
-Our best model's macro F1 score of **`0.7114`** surpasses the **top-ranked system** in the official SemEval2025 leaderboard, which achieved a macro F1 of **`0.6986`**.
-
 🔗 [Official Leaderboard](https://docs.google.com/spreadsheets/d/1pyKXpvmVsE1rwu8aRnfn372rD-v3L4Qo/edit?gid=57247028#gid=57247028)
 
 ## 📁 Files in This Folder
